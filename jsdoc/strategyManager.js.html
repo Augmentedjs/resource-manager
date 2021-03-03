@@ -65,6 +65,12 @@
 			<div class="navbar-collapse collapse" id="topNavigation">
 				<ul class="nav navbar-nav">
 								<li class="dropdown">
+									<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Globals<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+											<li><a href="global.html#strategy">strategy</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
 									<a href="list_class.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 									<ul class="dropdown-menu">
 											<li><a href="Strategy.html">Strategy</a></li>
@@ -105,6 +111,7 @@ class StrategyManager {
   constructor(type, register) {
     this._registry = (register) ? register : {};
     /**
+     * @name strategy
      * @property {Strategy} The strategy Class
      */
     this._strategy = this.get(type);

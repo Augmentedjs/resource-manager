@@ -71,11 +71,6 @@ window.lunrData = {
           "strategi",
           "strategymanag"
         ],
-        "StrategyManager.html#_strategy": [
-          "_strategi",
-          "member",
-          "strategymanager#_strategi"
-        ],
         "StrategyManager.html#register": [
           "clazz",
           "creat",
@@ -96,7 +91,7 @@ window.lunrData = {
           "type"
         ]
       },
-      "length": 8
+      "length": 7
     },
     "tokenStore": {
       "root": {
@@ -475,38 +470,6 @@ window.lunrData = {
                                       "docs": {},
                                       "#": {
                                         "docs": {},
-                                        "_": {
-                                          "docs": {},
-                                          "s": {
-                                            "docs": {},
-                                            "t": {
-                                              "docs": {},
-                                              "r": {
-                                                "docs": {},
-                                                "a": {
-                                                  "docs": {},
-                                                  "t": {
-                                                    "docs": {},
-                                                    "e": {
-                                                      "docs": {},
-                                                      "g": {
-                                                        "docs": {},
-                                                        "i": {
-                                                          "docs": {
-                                                            "StrategyManager.html#_strategy": {
-                                                              "ref": "StrategyManager.html#_strategy",
-                                                              "tf": 1150
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
                                         "r": {
                                           "docs": {},
                                           "e": {
@@ -666,23 +629,6 @@ window.lunrData = {
           },
           "e": {
             "docs": {},
-            "m": {
-              "docs": {},
-              "b": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "StrategyManager.html#_strategy": {
-                        "ref": "StrategyManager.html#_strategy",
-                        "tf": 110
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "t": {
               "docs": {},
               "h": {
@@ -694,38 +640,6 @@ window.lunrData = {
                       "StrategyManager.html#register": {
                         "ref": "StrategyManager.html#register",
                         "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "_": {
-          "docs": {},
-          "s": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "t": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "g": {
-                        "docs": {},
-                        "i": {
-                          "docs": {
-                            "StrategyManager.html#_strategy": {
-                              "ref": "StrategyManager.html#_strategy",
-                              "tf": 750
-                            }
-                          }
-                        }
                       }
                     }
                   }
@@ -789,10 +703,9 @@ window.lunrData = {
           }
         }
       },
-      "length": 40
+      "length": 37
     },
     "corpusTokens": [
-      "_strategi",
       "abstract",
       "arg",
       "augmented.j",
@@ -808,7 +721,6 @@ window.lunrData = {
       "list",
       "list:class",
       "manag",
-      "member",
       "method",
       "next",
       "readm",
@@ -818,7 +730,6 @@ window.lunrData = {
       "simpli",
       "strategi",
       "strategymanag",
-      "strategymanager#_strategi",
       "strategymanager#get",
       "strategymanager#regist",
       "sub",
@@ -886,16 +797,6 @@ window.lunrData = {
       "summary": "",
       "description": "The Strategy Manager class",
       "body": ""
-    },
-    "StrategyManager.html#_strategy": {
-      "id": "StrategyManager.html#_strategy",
-      "kind": "member",
-      "title": "_strategy",
-      "longname": "StrategyManager#_strategy",
-      "name": "_strategy",
-      "tags": "StrategyManager#_strategy _strategy",
-      "summary": "",
-      "description": ""
     },
     "StrategyManager.html#register": {
       "id": "StrategyManager.html#register",

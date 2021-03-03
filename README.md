@@ -10,13 +10,13 @@ A strategy pattern based resource manager.
 
 -   [StrategyManager](#strategymanager)
     -   [Parameters](#parameters)
-    -   [\_strategy](#_strategy)
-        -   [Properties](#properties)
     -   [register](#register)
         -   [Parameters](#parameters-1)
     -   [get](#get)
         -   [Parameters](#parameters-2)
--   [Strategy](#strategy)
+-   [strategy](#strategy)
+    -   [Properties](#properties)
+-   [Strategy](#strategy-1)
 
 ## StrategyManager
 
@@ -26,12 +26,6 @@ The Strategy Manager class
 
 -   `type`  
 -   `register`  
-
-### \_strategy
-
-#### Properties
-
--   `The` **[Strategy](#strategy)** strategy Class
 
 ### register
 
@@ -52,6 +46,12 @@ Get a strategy class of type
 -   `args` **...any** Args to p\[ass to a strategy class
 
 Returns **[Strategy](#strategy)** Returns subclass strategy type
+
+## strategy
+
+### Properties
+
+-   `The` **[Strategy](#strategy)** strategy Class
 
 ## Strategy
 

@@ -6,6 +6,7 @@ class StrategyManager {
   constructor(type, register) {
     this._registry = (register) ? register : {};
     /**
+     * @name strategy
      * @property {Strategy} The strategy Class
      */
     this._strategy = this.get(type);
