@@ -1,7 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-// const CopyWebpackPlugin = require("copy-webpack-plugin");
 const nodeExternals = require("webpack-node-externals");
 const PACKAGE_JSON = require("./package.json");
 
@@ -31,7 +30,7 @@ module.exports = {
         }
       },
       {
-        test: /\.jsonld*$/,
+        test: /\.json*$/,
         exclude: /node_modules/,
         use: {
           loader: "json-loader"
