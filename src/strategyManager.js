@@ -17,7 +17,7 @@ class StrategyManager {
   };
 
   /**
-   * Regester method for creating a registy
+   * Register method for creating a registy
    * @param {string} type Type of strategy 
    * @param {*} clazz 
    */

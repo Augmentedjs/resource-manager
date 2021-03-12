@@ -29,7 +29,7 @@ The Strategy Manager class
 
 ### register
 
-Regester method for creating a registy
+Register method for creating a registy
 
 #### Parameters
 

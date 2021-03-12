@@ -76,7 +76,6 @@ window.lunrData = {
           "creat",
           "function",
           "method",
-          "regest",
           "regist",
           "registi",
           "strategymanager#regist",
@@ -358,20 +357,6 @@ window.lunrData = {
             },
             "g": {
               "docs": {},
-              "e": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "StrategyManager.html#register": {
-                        "ref": "StrategyManager.html#register",
-                        "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              },
               "i": {
                 "docs": {},
                 "s": {
@@ -380,7 +365,7 @@ window.lunrData = {
                     "docs": {
                       "StrategyManager.html#register": {
                         "ref": "StrategyManager.html#register",
-                        "tf": 683.3333333333334
+                        "tf": 695.8333333333334
                       }
                     },
                     "i": {
@@ -703,7 +688,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 37
+      "length": 36
     },
     "corpusTokens": [
       "abstract",
@@ -724,7 +709,6 @@ window.lunrData = {
       "method",
       "next",
       "readm",
-      "regest",
       "regist",
       "registi",
       "simpli",
@@ -806,7 +790,7 @@ window.lunrData = {
       "name": "register",
       "tags": "StrategyManager#register register",
       "summary": "",
-      "description": "Regester method for creating a registy"
+      "description": "Register method for creating a registy"
     },
     "StrategyManager.html#get": {
       "id": "StrategyManager.html#get",
