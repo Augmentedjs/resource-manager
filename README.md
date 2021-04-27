@@ -8,15 +8,15 @@ A strategy pattern based resource manager.
 
 ### Table of Contents
 
--   [StrategyManager](#strategymanager)
-    -   [Parameters](#parameters)
-    -   [register](#register)
-        -   [Parameters](#parameters-1)
-    -   [get](#get)
-        -   [Parameters](#parameters-2)
--   [strategy](#strategy)
-    -   [Properties](#properties)
--   [Strategy](#strategy-1)
+*   [StrategyManager](#strategymanager)
+    *   [Parameters](#parameters)
+    *   [register](#register)
+        *   [Parameters](#parameters-1)
+    *   [get](#get)
+        *   [Parameters](#parameters-2)
+*   [strategy](#strategy)
+    *   [Properties](#properties)
+*   [Strategy](#strategy-1)
 
 ## StrategyManager
 
@@ -24,8 +24,8 @@ The Strategy Manager class
 
 ### Parameters
 
--   `type`  
--   `register`  
+*   `type`  
+*   `register`  
 
 ### register
 
@@ -33,8 +33,8 @@ Register method for creating a registy
 
 #### Parameters
 
--   `type` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Type of strategy
--   `clazz` **any** 
+*   `type` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Type of strategy
+*   `clazz` **any** 
 
 ### get
 
@@ -42,8 +42,8 @@ Get a strategy class of type
 
 #### Parameters
 
--   `type` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The key for a strategy type
--   `args` **...any** Args to p\[ass to a strategy class
+*   `type` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The key for a strategy type
+*   `args` **...any** Args to p\[ass to a strategy class
 
 Returns **[Strategy](#strategy)** Returns subclass strategy type
 
@@ -51,7 +51,7 @@ Returns **[Strategy](#strategy)** Returns subclass strategy type
 
 ### Properties
 
--   `The` **[Strategy](#strategy)** strategy Class
+*   `The` **[Strategy](#strategy)** strategy Class
 
 ## Strategy
 
