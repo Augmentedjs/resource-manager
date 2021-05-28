@@ -28,5 +28,8 @@
   "markdown": {
     "parser": "gfm",
     "hardwrap": true
+  },
+  "source": {
+    "includePattern": ".+\\.(m|c)?js(doc|x)?$"
   }
 }

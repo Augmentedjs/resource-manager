@@ -7,7 +7,7 @@ const PACKAGE_JSON = require("./package.json");
 const isProd = process.argv[process.argv.indexOf("--mode") + 1] === "production";
 
 module.exports = {
-  entry: ["./src/index.js"],
+  entry: ["./src/index.mjs"],
   context: __dirname,
   target: "node",
   externals: [nodeExternals()],
@@ -23,7 +23,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|mjs)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader"

@@ -1,4 +1,4 @@
-const Strategy = require("./strategy.js");
+import Strategy from "./strategy.mjs";
 /**
  * The Strategy Manager class
  */
@@ -48,4 +48,4 @@ class StrategyManager {
   };
 };
 
-module.exports = StrategyManager;
+export default StrategyManager;

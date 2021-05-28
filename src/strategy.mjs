@@ -6,4 +6,4 @@ class Strategy {
   constructor() {};
 };
 
-module.exports = Strategy;
+export default Strategy;
