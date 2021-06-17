@@ -17,6 +17,7 @@ A strategy pattern based resource manager.
 *   [strategy](#strategy)
     *   [Properties](#properties)
 *   [Strategy](#strategy-1)
+    *   [Parameters](#parameters-3)
 
 ## StrategyManager
 
@@ -34,7 +35,7 @@ Register method for creating a registy
 #### Parameters
 
 *   `type` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Type of strategy
-*   `clazz` **any** 
+*   `clazz` **Class** 
 
 ### get
 
@@ -43,7 +44,7 @@ Get a strategy class of type
 #### Parameters
 
 *   `type` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The key for a strategy type
-*   `args` **...any** Args to p\[ass to a strategy class
+*   `args` **...any** Args to pass to a strategy class
 
 Returns **[Strategy](#strategy)** Returns subclass strategy type
 
@@ -56,3 +57,7 @@ Returns **[Strategy](#strategy)** Returns subclass strategy type
 ## Strategy
 
 An abstract for use in strategy sub-classes
+
+### Parameters
+
+*   `options`   (optional, default `{}`)

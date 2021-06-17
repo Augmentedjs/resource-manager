@@ -19,7 +19,7 @@ class StrategyManager {
   /**
    * Register method for creating a registy
    * @param {string} type Type of strategy 
-   * @param {*} clazz 
+   * @param {Class} clazz 
    */
   register(type, clazz) {
     if (type && clazz) {
@@ -30,7 +30,7 @@ class StrategyManager {
   /**
    * Get a strategy class of type
    * @param {string} type The key for a strategy type 
-   * @param  {...any} args Args to p[ass to a strategy class
+   * @param  {...any} args Args to pass to a strategy class
    * @returns {Strategy} Returns subclass strategy type
    */
   get(type, ...args) {

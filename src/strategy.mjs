@@ -3,7 +3,7 @@
  * An abstract for use in strategy sub-classes
  */
 class Strategy {
-  constructor() {};
+  constructor(options = {}) {};
 };
 
 export default Strategy;
